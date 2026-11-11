@@ -1,0 +1,13 @@
+/DO-NOT-UPLOAD
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Local development
+.history/
+*.log
