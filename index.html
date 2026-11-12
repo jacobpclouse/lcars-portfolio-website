@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-	<meta name="description" content="Jacob Clouse is a software engineer specializing in enterprise mainframe systems, full-stack applications, and workflow automation.">
+	<meta name="description"
+		content="Jacob Clouse is a software engineer specializing in enterprise mainframe systems, full-stack applications, and workflow automation.">
 	<meta name="format-detection" content="telephone=no">
 	<meta name="format-detection" content="date=no">
 	<title>Jacob Clouse | Senior Software Engineer</title>
 </head>
+
 <body>
 	<main id="portfolio-loading" aria-live="polite">
 		<p>Loading portfolio…</p>
@@ -30,33 +33,51 @@
 		const portfolioContent = `
 			<div class="portfolio">
 				<section class="portfolio-hero" id="about" aria-labelledby="portfolio-title">
-					<div class="portfolio-hero-copy">
-						<h1 id="portfolio-title">Jacob Clouse</h1>
-						<div class="lcars-text-bar portfolio-identity-bar">
-							<h3> Senior Software Engineer </h3>
+					<div class="portfolio-hero-content">
+						<div class="portfolio-hero-copy">
+							<h1 id="portfolio-title">Jacob Clouse</h1>
+							<div class="lcars-text-bar portfolio-identity-bar">
+		 					<h3> Senior Software Engineer </h3>
+		 					</div>
+							<p class="portfolio-lede">I build dependable software for complex, real-world systems—from enterprise mainframes and data platforms to workflow automation and web applications.</p>
+							<div class="portfolio-actions">
+								<a class="portfolio-action" href="https://github.com/jacobpclouse" target="_blank" rel="noopener noreferrer">GitHub</a>
+								<a class="portfolio-action portfolio-action-secondary" href="https://www.linkedin.com/in/jpclouse" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+							</div>
 						</div>
-						<p class="portfolio-lede">I build dependable software for complex, real-world systems—from enterprise mainframes and data platforms to workflow automation and web applications.</p>
-						<div class="portfolio-actions">
-							<a class="portfolio-action" href="https://github.com/jacobpclouse" target="_blank" rel="noopener noreferrer">GitHub</a>
-							<a class="portfolio-action portfolio-action-secondary" href="https://www.linkedin.com/in/jpclouse" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+						<div class="image-frame">
+							<div class="imgf-title">
+								<div class="h4-wrapper">
+								</div>
+							</div>
+							<div class="imgf-image-body">
+								<div class="image-holder">
+									<img src="assets/my_headshot_photo.png" alt="Portrait of Jacob Clouse">
+								</div>
+							</div>
+							<div class="imgf-base">
+								<div class="imgf-block-1"> </div>
+								<div class="imgf-block-2"> </div>
+								<div class="imgf-block-3"> </div>
+								<div class="imgf-block-4"> </div>
+								<div class="imgf-block-5"> </div>
+							</div>
 						</div>
 					</div>
-					<aside class="portfolio-profile" aria-label="Portrait">
-						<img src="assets/my_headshot_photo.png" alt="Portrait of Jacob Clouse">
-					</aside>
 				</section>
 
 				<section class="portfolio-metrics" aria-label="Selected impact">
-					<div><strong>6+ Years Experience</strong><span>Across Software Dev and IT</span></div>
-					<div><strong>M.S. in CompSci</strong><span>From UAlbany, Class of '23</span></div>
+					<div><strong>6+ Years Experience</strong><span>Software Dev and IT</span></div>
+					<div><strong>Masters in CompSci</strong><span>From UAlbany, 2023</span></div>
 					<div><strong>CompTIA Certified</strong><span>Security+, CySA+, Pentest+</span></div>
-					<div><strong>Hackathon Winner</strong><span>2nd Place HackRPI 2025</span></div>
+					<div><strong>Hackathon Winner</strong><span>2nd place in HackRPI 2025</span></div>
 				</section>
 
 
 				<section class="portfolio-section" id="experience" aria-labelledby="experience-title">
 					<p class="portfolio-kicker">Career history</p>
 					<h2 id="experience-title">Experience</h2>
+					<hr class="lcars-bar">
 					<div class="portfolio-timeline">
 						<article class="portfolio-card">
 							<div class="portfolio-card-heading">
@@ -112,18 +133,28 @@
 					</div>
 				</section>
 
+
+				
+
+
 				<section class="portfolio-section portfolio-education" id="education" aria-labelledby="education-title">
 					<p class="portfolio-kicker">Education</p>
 					<h2 id="education-title">My Alma Mater</h2>
+					<hr class="lcars-bar">
 					<div class="portfolio-card">
 						<div class="portfolio-card-heading"><div><h3>M.S. in Computer Science</h3><p class="portfolio-organization">University at Albany, SUNY</p></div><p class="portfolio-date">2023</p></div>
 						<div class="portfolio-card-heading"><div><h3>B.S. in Computer Information Systems, Departmental Honors</h3><p class="portfolio-organization">Sage College of Albany</p></div><p class="portfolio-date">2017</p></div>
 					</div>
 				</section>
 
+
+				
+
+
 				<section class="portfolio-section" id="selected-work" aria-labelledby="work-title">
 					<p class="portfolio-kicker">Applied engineering</p>
 					<h2 id="work-title">Selected work</h2>
+					<hr class="lcars-bar">
 					<div class="portfolio-project-grid">
 						<article class="portfolio-card portfolio-project">
 							<p class="portfolio-project-type">Hackathon · 2nd Place, Best Hack</p>
@@ -146,9 +177,14 @@
 					</div>
 				</section>
 
+
+				
+
+
 				<section class="portfolio-section" id="skills" aria-labelledby="skills-title">
 					<p class="portfolio-kicker">Technical toolkit</p>
 					<h2 id="skills-title">Skills</h2>
+					<hr class="lcars-bar">
 					<div class="portfolio-skill-grid">
 						<div class="portfolio-card"><h3>Mainframe &amp; enterprise</h3><p>COBOL, JCL, IBM z/OS, DB2, SQL/PL-SQL, mainframe application maintenance</p></div>
 						<div class="portfolio-card"><h3>Application development</h3><p>Python, PHP, Laravel, JavaScript, Vue.js, Flask, Django, REST APIs</p></div>
@@ -157,12 +193,26 @@
 					</div>
 				</section>
 
+
+
 				<section class="portfolio-contact" id="contact" aria-labelledby="contact-title">
 					<div><p class="portfolio-kicker">Start a conversation</p><h2 id="contact-title">Let’s build something reliable.</h2><p>Interested in enterprise software, platform modernization, or practical automation? I’d be glad to connect.</p></div>
 					<a class="portfolio-action" href="mailto:hey@jakeclouse.com">hey@jakeclouse.com</a>
+					 
+
+
 				</section>
 			</div>
 		`;
+
+		// <div class="lcars-text-bar portfolio-identity-bar">
+		// 	<h3> Senior Software Engineer </h3>
+		// </div>
+
+
+		// <aside class="portfolio-profile" aria-label="Portrait">
+		// 	<img src="assets/my_headshot_photo.png" alt="Portrait of Jacob Clouse">
+		// </aside>
 
 		function createAnchor(className, label, target) {
 			const link = document.createElement("a");
@@ -220,7 +270,7 @@
 				[".panel-3", "ABOUT", "about"],
 				[".panel-4", "JOBS", "experience"],
 				[".panel-5", "WORK", "selected-work"],
-				[".panel-6", "SCHOOL", "education"],
+				[".panel-6", "ALMA MATER", "education"],
 				[".panel-7", "SKILLS", "skills"],
 				[".panel-8", "CONTACT", "contact"]
 			];
@@ -304,4 +354,5 @@
 		});
 	</script>
 </body>
+
 </html>
